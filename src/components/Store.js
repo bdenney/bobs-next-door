@@ -4,16 +4,16 @@ function Store({store}) {
     return (
     <tr>
         <td>
-            {store.name}
+            <span>{store.name}</span>
         </td>
         <td>
             <a href={store.image} target="_blank"><b>&#8599;</b></a>
         </td>
         <td>
-            {store.season}
+            <span>{store.season}</span>
         </td>
         <td>
-            {store.episode}
+            <span>{store.episode}</span>
         </td>
     </tr>
     );

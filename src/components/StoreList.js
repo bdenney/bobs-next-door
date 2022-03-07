@@ -23,7 +23,7 @@ function StoreList({storeData}) {
                 </tr>
                 {
                     storeData.map(store => {
-                        return <Store store={store} />
+                        return <Store key={store.id} store={store} />
                     })
                 }
             </tbody>

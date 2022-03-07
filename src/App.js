@@ -16,11 +16,16 @@ function App() {
     })
   }, []);
 
+  function addNewStore(store) {
+    const newStoreArray = [...stores, store];
+    setStores(newStoreArray);
+  }
+
   return (
     <div>
       <h1>Bob's Neighbors</h1>
       <Search />
-      <NewStoreForm />
+      <NewStoreForm addNewStore={addNewStore} />
       <StoreList storeData={stores}/>
     </div>
   );
