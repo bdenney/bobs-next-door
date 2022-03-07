@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 function App() {
 
   const [stores, setStores] = useState([])
+  const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:8085/stores")
@@ -21,12 +22,20 @@ function App() {
     setStores(newStoreArray);
   }
 
+  function handleSearch(searchText) {
+    setSearchText(searchText);
+  }
+
+  const storesToDisplay = stores.filter(store => {
+    return store.name.toLowerCase().includes(searchText.toLowerCase());
+  })
+
   return (
     <div>
       <h1>Bob's Neighbors</h1>
-      <Search />
+      <Search onSearch={handleSearch} />
       <NewStoreForm addNewStore={addNewStore} />
-      <StoreList storeData={stores}/>
+      <StoreList storeData={storesToDisplay}/>
     </div>
   );
 }

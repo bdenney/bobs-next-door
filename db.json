@@ -604,22 +604,6 @@
         "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/67"
         },
         {
-        "id": 68,
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/68.jpg",
-        "season": 5,
-        "episode": 1,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/68",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/68"
-        },
-        {
-        "id": 69,
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/69.jpg",
-        "season": 5,
-        "episode": 2,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/69",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/69"
-        },
-        {
         "id": 70,
         "name": "GIFT RAPPERS FREESTYLE GIFT WRAPPING",
         "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/70.jpg",
@@ -780,14 +764,6 @@
     "episode": 20,
     "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/87",
     "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/87"
-    },
-    {
-    "id": 88,
-    "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/88.jpg",
-    "season": 5,
-    "episode": 21,
-    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/88",
-    "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/88"
     },
     {
     "id": 89,
@@ -1015,14 +991,6 @@
     "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/113"
     },
     {
-    "id": 114,
-    "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/114.jpg",
-    "season": 7,
-    "episode": 7,
-    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/114",
-    "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/114"
-    },
-    {
     "id": 115,
     "name": "CINDY LOPPER HAIRSTYLING",
     "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/115.jpg",
@@ -1030,14 +998,6 @@
     "episode": 8,
     "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/115",
     "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/115"
-    },
-    {
-    "id": 116,
-    "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/116.jpg",
-    "season": 7,
-    "episode": 9,
-    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/116",
-    "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/116"
     },
     {
     "id": 117,
@@ -1191,22 +1151,6 @@
     "episode": 5,
     "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/134",
     "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/133"
-    },
-    {
-    "id": 134,
-    "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/134.jpg",
-    "season": 8,
-    "episode": 6,
-    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/135",
-    "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/134"
-    },
-    {
-    "id": 135,
-    "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/135.jpg",
-    "season": 8,
-    "episode": 7,
-    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/136",
-    "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/135"
     },
     {
     "id": 136,
