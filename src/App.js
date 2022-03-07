@@ -31,8 +31,9 @@ function App() {
   })
 
   return (
-    <div>
-      <h1>Bob's Neighbors</h1>
+    <div className="main-container">
+      <img src="/images/bobsburgers.png" />
+      <h1>Neighbor Stores</h1>
       <Search onSearch={handleSearch} />
       <NewStoreForm addNewStore={addNewStore} />
       <StoreList storeData={storesToDisplay}/>

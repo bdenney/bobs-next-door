@@ -3,7 +3,7 @@ import React from 'react'
 function Store({store}) {
     return (
     <tr>
-        <td>
+        <td className="row-name">
             <span>{store.name}</span>
         </td>
         <td>

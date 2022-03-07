@@ -65,7 +65,7 @@
         },
         {
         "id": 8,
-        "name": "ATTEMPTED CRÊPE French Cooking School",
+        "name": "ATTEMPTED CREPE French Cooking School",
         "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/8.jpg",
         "season": 1,
         "episode": 8,
@@ -584,24 +584,6 @@
         "episode": 20,
         "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/65",
         "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/65"
-        },
-        {
-        "id": 66,
-        "name": "Wharf Horse (How Bob Saves/Destroys the Town - Part I)",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/66.jpg",
-        "season": 4,
-        "episode": 21,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/66",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/66"
-        },
-        {
-        "id": 67,
-        "name": "World Wharf II: The Wharfening (How Bob Saves/Destroys the Town - Part II)",
-        "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/67.jpg",
-        "season": 4,
-        "episode": 22,
-        "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/67",
-        "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/67"
         },
         {
         "id": 70,

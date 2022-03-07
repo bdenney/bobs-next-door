@@ -9,7 +9,7 @@ function Search({onSearch}) {
     }
 
     return(
-        <div>
+        <div className="search-container">
             <input type="text" placeholder="Search names..." onChange={handleChange} />
         </div>
     );

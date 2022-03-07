@@ -8,17 +8,17 @@ function StoreList({storeData}) {
         <table>
             <tbody>
                 <tr>
-                    <th>
-                        <h3>Name</h3>
+                    <th className="row-name">
+                        Name
                     </th>
                     <th>
-                        <h3>Image</h3>
+                        Image
                     </th>
                     <th>
-                        <h3>Season</h3>
+                        Season
                     </th>
                     <th>
-                        <h3>Episode</h3>
+                        Episode
                     </th>
                 </tr>
                 {
