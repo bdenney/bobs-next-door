@@ -1,5 +1,7 @@
 # Bob's Burgers Neighbors
 
+![](./finished-project.png)
+
 Being a huge fan of Bob's Burgers you've decided to develop a new app that allows you to track all the punny names of the businesses that are next door to Bob's restaurant during the opening sequence.
 
 Being a creative type, you've also given yourself a way to add _new_ punny business names that have yet to be developed!
