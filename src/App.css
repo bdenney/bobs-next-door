@@ -25,6 +25,7 @@ html, body {
 }
 
 .main-container img {
+    margin-top:1em;
     display:block;
     margin-left:auto;
     margin-right:auto;
