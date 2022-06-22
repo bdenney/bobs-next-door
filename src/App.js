@@ -10,16 +10,13 @@ function App() {
   const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
-    fetchStores()
-  }, []);
-
-  function fetchStores() {
     fetch("http://localhost:8085/stores")
     .then(response => response.json())
     .then(storeJson => {
+      console.log(storeJson)
       setStores(storeJson);
     })
-  }
+  }, []);
 
   function addNewStore(store) {
     // Make fetch to POST to backend
@@ -32,7 +29,11 @@ function App() {
     });
 
     // Fetch all stores again
-    fetchStores();
+    fetch("http://localhost:8085/stores")
+    .then(response => response.json())
+    .then(storeJson => {
+      setStores(storeJson);
+    })
   }
 
   function handleSearch(searchText) {
