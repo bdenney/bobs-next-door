@@ -1,5 +1,4 @@
 import React from "react"
-import {v4 as uuid} from "uuid";
 
 function NewStoreForm({addNewStore}) {
 
@@ -9,7 +8,6 @@ function NewStoreForm({addNewStore}) {
         const formElement = event.target;
 
         const storeData = {
-            "id": uuid(),
             "name": formElement["name"].value,
             "image": formElement["image"].value,
             "season": formElement["season"].value,
